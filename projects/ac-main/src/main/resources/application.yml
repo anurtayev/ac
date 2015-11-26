@@ -1,0 +1,9 @@
+#==== application parameters
+
+scriptsAddress: http://localhost:9000/list 
+getScriptAddress: http://localhost:9000/getScript
+
+#==== infrastructure
+
+logging:
+  level.demo: DEBUG

@@ -1,0 +1,9 @@
+def projectsPath = 'projects'
+def projectsDir = new File(rootDir, projectsPath)
+assert projectsDir.isDirectory()
+assert projectsDir.canRead()
+
+projectsDir.eachDir { projectDir ->
+	include projectDir.name
+	project(":${projectDir.name}").projectDir = projectDir
+}

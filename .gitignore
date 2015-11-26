@@ -1,0 +1,15 @@
+.DS_Store
+.classpath
+.gradle
+.project
+.settings
+build
+bin
+.bash_profile
+.bashrc
+.cache
+.sdkman
+.vagrant
+.zshrc
+.bash_history
+bin

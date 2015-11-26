@@ -1,0 +1,5 @@
+repositoryPath: 'scripts'
+
+server:
+  port: 9000
+  
